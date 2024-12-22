@@ -13,4 +13,101 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  font-family: var(--main-font);
+  font-variation-settings: 'wdth' var(--main-font-weight);
+  background-color: var(--background-color);
+  color: var(--accent-color);
+  background-image: var(--background-image);
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header{
+  background-color:var(--background-color);
+  margin-top: 10.41vh;
+  margin-bottom: 10.41vh;;
+  width: clamp(455px, 48.61vw, 48.61vw);
+  height: clamp(364px, 38.33vh, 38.33vh);
+  border: solid var(--accent-color) 2px;
+  text-align: center;
+  font-family: var(--accent-font);
+  text-transform: uppercase;
+}
+
+.logo{
+  margin-top: 14.16vh;
+  font-size: clamp(65px, 6.7vh, 6.7vh);
+}
+
+.main-title{
+  margin-top: 2vh;
+  font-size: clamp(23px, 2.39vh, 2.39vh);
+}
+
+.header__theme-menu{
+  margin-top: 2.6vh;
+}
+
+.theme-menu__list{
+  display: grid;
+  gap: 14px;
+  justify-content: space-evenly;
+  justify-items: start;
+}
+
+.theme-menu__button{
+  position: relative;
+  text-transform: uppercase;
+  background: none;
+  cursor: pointer;
+  border: none;
+  font-size: clamp(14px, 1.45vh, 1.45vh);
+}
+
+.theme-menu__button:disabled::before{
+  position: absolute;
+  content: '▶';
+  left: -15px;
+}
+
+.card{
+  background-color:var(--background-color);
+  width: clamp(455px, 48.61vw, 48.61vw);
+  height: clamp(959px, 38.33vh, 38.33vh);
+  border: solid var(--accent-color) 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__title{
+  font-weight: var(--accent-font-weight);
+  padding: 3px clamp(10px, 0.07vw, 0.07vw);
+  font-size: clamp(18px, 1.87vh, 1.87vh);
+}
+
+.card__image{
+  width: 100%;
+}
+
+.card__text-container{
+  display: grid;
+  margin: 25px;
+  gap: 27px;
+}
+.card__text{
+  font-size: clamp(18px, 1.87vh, 1.87vh);
+  
+}
+
+.card__button{
+  margin-right: 25px;
+  background: none;
+  width: 130px;
+  height: 38px;
+  border: 2px solid var(--accent-color);
+  align-self: flex-end;
+  font-family: var(--accent-font);
+  font-size: clamp(14px, 1.45vh, 1.45vh);
 }

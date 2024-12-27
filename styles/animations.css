@@ -10,29 +10,29 @@
 
 */
 
-@keyframes arrow{
-    from{
-        transform: translateX(0);
-    }
-    to{
-        transform: translateX(4px);
-    }
+@keyframes arrow {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(4px);
+  }
 }
 
-@keyframes growing{
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.5);
-    }
+@keyframes growing {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
 }
 
-@keyframes sparking{
-    from{
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
+@keyframes sparking {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

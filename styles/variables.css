@@ -1,14 +1,17 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
-:root{
-    --main-font: "Inter", "Arial", sans-serif;
-    --accent-font: "PressStart2P", "Courier New", monospace;
-    --main-font-weight: 400;
-    --accent-font-weight: 700;
-    --background-color: rgba(255, 255, 255, 1);
-    --accent-color: rgba(0, 0, 0, 1);
-    --heart-color: rgba(255, 0, 0, 1);
-    --background-image: repeating-linear-gradient(#d3d3d3 0 2px,transparent 2px 4px),
-                        repeating-linear-gradient(to right, #d3d3d3 0 2px,transparent 2px 4px),
-                        linear-gradient(#e7e7e7 0%,#e7e7e7 0.01%, #1a1a1a 100%);
-
+:root {
+  --main-font: "Inter", "Arial", sans-serif;
+  --accent-font: "PressStart2P", "Courier New", monospace;
+  --main-font-weight: 400;
+  --accent-font-weight: 700;
+  --background-color: rgba(255, 255, 255, 1);
+  --accent-color: rgba(0, 0, 0, 1);
+  --heart-color: rgba(255, 0, 0, 1);
+  --button-text: rgba(255, 255, 255, 1);
+  --background-image: repeating-linear-gradient(
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(#e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
 }
